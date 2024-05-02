@@ -4,3 +4,7 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0
 3.
 dotnet dotnet-ef DBContext Scaffold "User ID=sa;password=examlyMssql@123;server=localhost;Database=appdb;trusted_connection=false;Persist Security Info=False;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -o  Model
+
+
+// Migration part :
+ dotnet dotnet-ef migrations add FirstMigration
