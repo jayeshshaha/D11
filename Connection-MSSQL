@@ -8,3 +8,6 @@ dotnet dotnet-ef DBContext Scaffold "User ID=sa;password=examlyMssql@123;server=
 
 // Migration part :
  dotnet dotnet-ef migrations add FirstMigration
+
+// Update : 
+ dotnet dotnet-ef database update
